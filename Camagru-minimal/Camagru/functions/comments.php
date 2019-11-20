@@ -91,7 +91,7 @@ function get_comments($img_id) {
 						<div class='tile is-parent'>
 							<div class='reg' >
 							<div style='text-align:center; width:100%; height:5%;'>
-							<p style='border:3px solid white;  text-align:center; background:grey;'>
+							<p style='border:3px solid white;  text-align:center; background:white;'>
 								<strong style='color:#009f8b; border-color: #009f8b;'>$commentor</strong><br/>
 								<small style='color:#009f8b; border-color: #009f8b;'>$comment</small>
 							</p>
