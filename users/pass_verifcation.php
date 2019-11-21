@@ -14,7 +14,7 @@ session_start();
      </header>
     <section>
             <div class="reg">
-                <p style="color:#009f8b; font-size:20px; margin-top: 10%">Please check your email for a verification link to activate your account!</p>
+                <p style="color:#009f8b; font-size:20px; margin-top: 10%">Please check your email for a verification link to change your password!</p>
                 </div>
             </div>
     </section>

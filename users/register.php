@@ -10,7 +10,7 @@ session_start();
     <link rel="stylesheet" type="text/css" href="../index.css">
 </head>
 <body style="background: url(../background/bg.png)">
-     <header style="margin-bottom:10em;width: 100%; height: 15%; background-color:black;z-index:999;"><h1><a href="../index.php">Camagru</a><h1  style="background-color:black;position:fixed;z-index:999;">
+     <header style="margin-bottom:10em;width: 100%; height: 15%; background-color:black;z-index:999;"><h1><a href="../index.php">Camagru</a><h1  style="background-color:black;z-index:999;">
          <div><a style="float:right;"href="register.php">Register</a></div>
      </header>
     <section>

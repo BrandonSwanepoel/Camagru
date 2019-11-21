@@ -29,7 +29,7 @@ session_start();
                            <input type="submit" name="login" id="log_but" value="Login"/>
                         </div>
                         <div class="form-group">
-                        <a href="forgot_pass.php" style="background: transparent; color:aqua; border-color: aqua; font-size:17px; margin-top: 1%;">Forgot Password?</a>
+                        <a href="forgot_pass.php" style="background: transparent; color:#009f8b; border-color: #009f8b; font-size:17px; margin-top: 1%;">Forgot Password?</a>
                         </div>
                     </form>
                     <?php

@@ -11,6 +11,7 @@ image.setAttribute("crossorgin","anonymous");
 //set video from new_upload to stream from webcam
 navigator.mediaDevices.getUserMedia({video:true}).then(function(stream) {
         video.srcObject = stream;
+        video.setAttribute("crossorgin","anonymous");
         video.play();
     }).catch(function(error) {
         console.log("Well, that did not work.");

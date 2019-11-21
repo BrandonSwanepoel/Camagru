@@ -43,7 +43,7 @@ function notify_comment($user) {
 		if ($user_email['notif'] == 1) {
 			$subject = "Camagru Comment";
 			$body = "Someone commented on one of your pictures.";
-			$headers = "From: camagru@gmail.com\r\n";
+			$headers = "From: Camagru@gmail.com\r\n";
 			$headers .= "Content-Type: text/html; charset=UTF-8\r\n";
 			mail($user_email['email'],$subject,$body,"");
 			echo "<script>alert('Email Sent')</script>";
