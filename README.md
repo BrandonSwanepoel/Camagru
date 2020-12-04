@@ -16,7 +16,7 @@ Camagru is a website similar to Instagram. This website is used to upload pictur
 3.Clone your repository in htdocs.\
 \
 4.Configure your MySQL database to use the following credentials initially
-#### User:root Password:123456
+#### User:root Password:Brandon!123
 
 ##### Remember to change these credentials to make the database more secure
 
