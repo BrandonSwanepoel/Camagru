@@ -44,11 +44,11 @@ session_start();
 							<input name="taken" id="taken" type="hidden" value="upload_photo.php">
 
 							<div class="box" style="background:grey;">
-								<img src="http://localhost:8080/Camagru/images/frame.png" class="supers" width="100" height="100">
-								<img src="http://localhost:8080/Camagru/images/f-sticker.png" crossorgin="anonymous" class="supers" width="100" height="100">
-								<img src="http://localhost:8080/Camagru/images/cat-sticker.png" crossorgin="anonymous"class="supers" width="100" height="100">
-								<img src="http://localhost:8080/Camagru/images/h-sticker.png" crossorgin="anonymous" class="supers" width="100" height="100">
-								<img src="http://localhost:8080/Camagru/images/q-sticker.png" crossorgin="anonymous" class="supers" width="100" height="100">
+								<img src="http://localhost/Camagru/images/frame.png" class="supers" width="100" height="100">
+								<img src="http://localhost/Camagru/images/f-sticker.png" crossorgin="anonymous" class="supers" width="100" height="100">
+								<img src="http://localhost/Camagru/images/cat-sticker.png" crossorgin="anonymous"class="supers" width="100" height="100">
+								<img src="http://localhost/Camagru/images/h-sticker.png" crossorgin="anonymous" class="supers" width="100" height="100">
+								<img src="http://localhost/Camagru/images/q-sticker.png" crossorgin="anonymous" class="supers" width="100" height="100">
 							</div>
 							<div style="padding-top:1%;">
 								<button style="background: transparent; color:#009f8b; border-color: #009f8b; font-size:22px; border-radius:0px;" type="submit" name="submit_taken" id="submit_taken">Upload Photo</button>

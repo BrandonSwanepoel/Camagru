@@ -5,7 +5,7 @@ function email_verif($email, $user, $key)
 	<p>Hi ".$user.",</p>
 	<p>Thanks for Registering for a Camagru Account</p>
 	<p>Please Open this link to verify your email address -
-	<a href='http://localhost:8080/Camagru/users/email_verified.php?ver_key=".$key."'>Register Account</a><br />
+	<a href='http://localhost/Camagru/users/email_verified.php?ver_key=".$key."'>Register Account</a><br />
 	Best Regards,<br />Camagru</p>
 	";
 		$to = $email;

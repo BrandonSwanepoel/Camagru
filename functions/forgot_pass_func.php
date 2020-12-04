@@ -15,7 +15,7 @@ function forgot_pass() {
 
     $subject = "Reset your password";
     $body = "<p>To reset your password please click the link -
-    <a href='http://localhost:8080/Camagru/users/reset_pass.php?ver_key=".$ver_key."'>Change Password</a><br />
+    <a href='http://localhost/Camagru/users/reset_pass.php?ver_key=".$ver_key."'>Change Password</a><br />
     Best Regards,<br />Camagru</p>
             ";
     $headers = "From: Camagru@gmail.com\r\n";
