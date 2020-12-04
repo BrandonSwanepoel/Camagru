@@ -5,6 +5,7 @@ Camagru is a website similar to Instagram. This website is used to upload pictur
 * CSS
 * PHP
 * JavaScript
+* MAMP
 * MySQL
 
 # Application setup steps:
