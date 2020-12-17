@@ -27,6 +27,18 @@ Camagru is a website similar to Instagram. This website is used to upload pictur
 7.Register a new user and verify your registration via email.\
 \
 8.Login and enjoy the website.
+# Architecture
+1.background, Contains the background image.\
+\
+2.config, contains all the setup files to start using the website and also the database info.\
+\
+3.functions, contains all the different functions that are used right through the website.\
+\
+4.images, contains all the stickers that can be added to a picture.\
+\
+5.includes, contains the javascript file to take a picture with a webcam and also to add stickers to that picture. It also contains a connection file that is used to connect to the database.\
+\
+6.users, contains all the functions that has something to do with the user.
 
 # Testing
 These are the test that I executed with their expected outcomes:
