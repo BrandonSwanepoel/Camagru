@@ -28,7 +28,7 @@ Camagru is a website similar to Instagram. This website is used to upload pictur
 \
 8.Login and enjoy the website.
 # Architecture
-1.background, Contains the background image.\
+1.background, contains the background image.\
 \
 2.config, contains all the setup files to start using the website and also the database info.\
 \
