@@ -10,7 +10,9 @@
         $u_email = $_POST['email'];
         validate_email($u_email);
         validate_password($_POST['password']);
+        //has the  password
         $u_pass = hash('whirlpool', $_POST['password']);
+        //create the vkey
         $vkey = hash('whirlpool', $username.$_POST['password']);
 
         $get_data = $con->prepare("SELECT * FROM users WHERE username=:username");
@@ -24,9 +26,9 @@
             $sql = ("INSERT INTO users (`name`, `surname`, `username`, `email`, `userpass`, `vkey`) values (:u_name,:u_surname,:u_uname,:u_email,:u_pass,:vkey)");
             $reg_data = $con->prepare($sql);
             $reg_data->execute(array(':u_name'=>$u_name, ':u_surname'=>$u_surname, ':u_uname'=>$u_uname, ':u_email'=>$u_email, ':u_pass'=>$u_pass, ':vkey'=>$vkey));
-            include 'email_verif.php';
-            email_verif($u_email, $u_uname, $vkey);
-            echo '<script>window.location.href="email_verifcation.php";</script>';
+            // include 'email_verif.php';
+            // email_verif($u_email, $u_uname, $vkey);
+            echo '<script>window.location.href="../index.php";</script>';
         }
         $con = null;
     }
